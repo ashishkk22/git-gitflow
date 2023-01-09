@@ -21,6 +21,8 @@
  | Cherry pick commit from the diff branch |  	git cherry-pick HASH | 
 
 ## Pull and merge difference
+ A git pull is going to run a git fetch and then a git merge. If you want to bring your local repository up to speed with a remote repository that is what you would run.\
+ A git fetch is going to import commits from a remote repo without merging them, which gives you the opportunity to review them before integrating.
 → if we don't have to directly merge the feature branch to the main branch then we have to do the pull request and after it is being approved it is going to merged in to the main branch\
 → pull request is also going to be beneficial if we don't own the repo and we are doing contributions with the fork repo\
 → with the merge both repo is going to be merged\
